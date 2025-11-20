@@ -1,0 +1,95 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff0f5;
+  color: #a37c7c;
+  line-height: 1.6;
+}
+header {
+  background-color: #c0a7e1;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+header h1 {
+  color: white;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+nav {
+  background-color: #bdb439;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0;
+}
+nav a {
+  color: #4c09f5;
+  text-decoration: none;
+  margin: 0 20px;
+  font-weight: bold;
+}
+nav a:hover {
+  color: #3d11ae;
+  border-bottom: 2px solid #3713e9;
+}
+section.intro {
+  text-align: center;
+  padding: 50px 20px;
+}
+section.intro h2 {
+  color: #cb4210;
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+.product {
+  background: white;
+  width: 250px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.product:hover {
+  transform: scale(1.05);
+}
+.product img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+}
+.product h3 {
+  color: #1248ab;
+  margin: 10px 0;
+}
+.product p {
+  color: #555;
+}
+.product button {
+  background-color: #0e5add;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+.product button:hover {
+  background-color: #050378;
+}
+footer {
+  text-align: center;
+  background-color: #ffb6c1;
+  padding: 20px;
+  color: white;
+  font-size: 0.9em;
+}
